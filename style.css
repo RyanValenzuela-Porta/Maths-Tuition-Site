@@ -9,6 +9,9 @@
   --main-grey:#f2f2f2;
   --light-pink:#fff4f4;
 }
+.hidden{
+  display: none;
+}
 html{
   scroll-behavior: smooth;
   scroll-padding-top:120px;
