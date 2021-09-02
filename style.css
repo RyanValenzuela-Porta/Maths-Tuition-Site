@@ -14,7 +14,7 @@
 }
 html{
   scroll-behavior: smooth;
-  scroll-padding-top:120px;
+  scroll-padding-top:100px;
 }
 body{
   background-color: var(--main-grey);
@@ -294,7 +294,7 @@ a{
 }
 
 #contact{
-  padding-top:40px;
+  /* padding-top:40px; */
   background:linear-gradient(rgba(242,242,242,0.94),rgba(255,255,255,0.94)),url(contact.jpg);
   background-size:initial;
   background-repeat: no-repeat;
