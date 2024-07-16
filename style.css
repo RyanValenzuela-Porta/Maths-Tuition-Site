@@ -112,9 +112,10 @@ a{
 }
 #hi{
   font-weight:800;
-  font-size: 50px;
+  font-size: max(20px,2vw);
   margin-bottom: 30px;
   grid-area: hi;
+  display: block;
 }
 #hi::after{
   content: '';
@@ -136,6 +137,7 @@ a{
   grid-template-areas: "hi img" "text img" "text img" "comm img";
   grid-template-rows: repeat(4,75px);
 }
+
 @keyframes float-in{
   0%{
     margin-top: 35vh;
@@ -147,7 +149,7 @@ a{
 .hero-desc{
   margin-block:20px;
   grid-area:text;
-  font-size: max(1rem,1.5vw);
+  font-size: max(1rem,1.4vw);
 }
 .commision{
   text-align: center;
